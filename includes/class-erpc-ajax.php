@@ -194,9 +194,9 @@ class ERPC_AJAX {
 		erpc_unlock($lck_name);
 		$result['message'] = 'OK';
 
-		//if ( $changed ) {
+		if ( $changed ) {
 			$result['table'] = wp_erpc_Invoice::getHTMLList(false);
-		//}
+		}
 		
 		wp_send_json(array('success' => true, 'result' => $result));
 		

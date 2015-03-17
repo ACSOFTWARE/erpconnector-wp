@@ -56,6 +56,10 @@ Currently supported systems:
 This plugin requires installation of a free of charge server software, followed with an installation manual available at: 
 http://www.acsoftware.pl/download?file=erpcserver
 
+== Screenshots ==
+http://www.acsoftware.pl/_erpconnector/wp-erpc-screenshot1.png
+http://www.acsoftware.pl/_erpconnector/wp-erpc-screenshot2.png
+
 == Installation ==
 
 1. Install ERP CONNECTOR either via the WordPress.org plugin directory, or by uploading the files to your server
