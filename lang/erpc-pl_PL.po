@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ERP CONNECTOR v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-17 14:24:24+0000\n"
+"Last-Translator: admin <p.zygmunt@acsoftware.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: erpc.php:0
+#: includes/erpc-user.php:18
+#@ erpc
+msgid "ERP CONNECTOR"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: erpc.php:0
+#@ erpc
+msgid "Access to ERP systems ( Wf-Mag, CDN Optima, CDN XL, SubiektGT, Sage Symfonia, Hermes SQL, Corax, Navireo, Enova, PCBiznes, Polpress.pl, Faktury Express, Elisoft Faktury, Raks SQL, ODL, PolkaSQL, Fin7 )"
+msgstr "Dostęp do systemów ERP ( Wf-Mag, CDN Optima, CDN XL, SubiektGT, Sage Symfonia, Hermes SQL, Corax, Navireo, Enova, PCBiznes, Polpress.pl, Faktury Express, Elisoft Faktury, Raks SQL, ODL, PolkaSQL, Fin7 )"
+
+#. translators: plugin header field 'Author'
+#: erpc.php:0
+#@ erpc
+msgid "AC SOFTWARE SP. Z O.O."
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: erpc.php:0
+#@ erpc
+msgid "http://www.acsoftware.pl"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: erpc.php:0
+#@ erpc
+msgid "1.0"
+msgstr ""
+
+#: includes/class-erpc-ajax.php:50
+#: includes/class-erpc-ajax.php:106
+#@ erpc
+msgid "Operation in progress"
+msgstr "Operacja w trakcie wykonywania"
+
+#: includes/class-erpc-ajax.php:76
+#@ erpc
+msgid "Document don't exists"
+msgstr "Dokument nie istnieje"
+
+#: includes/class-erpc-ajax.php:99
+#, php-format
+#@ erpc
+msgid "Operation possible for %d sec."
+msgstr "Operacja możliwa za %d sekund"
+
+#: includes/class-erpc-install.php:62
+#: includes/class-erpc-install.php:63
+#: includes/class-erpc-invoice.php:93
+#@ erpc
+msgid "Invoices"
+msgstr "Faktury"
+
+#: includes/class-erpc-invoice.php:97
+#@ erpc
+msgid "Number"
+msgstr "Numer"
+
+#: includes/class-erpc-invoice.php:98
+#@ erpc
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-erpc-invoice.php:99
+#@ erpc
+msgid "Payment method"
+msgstr "Forma płatności"
+
+#: includes/class-erpc-invoice.php:100
+#@ erpc
+msgid "Term date"
+msgstr "Termin płatnosci"
+
+#: includes/class-erpc-invoice.php:101
+#@ erpc
+msgid "Total gross"
+msgstr "Wartość brutto"
+
+#: includes/class-erpc-invoice.php:102
+#@ erpc
+msgid "Remain"
+msgstr "Pozostaje"
+
+#: includes/erpc-admin.php:14
+#@ erpc
+msgid "ERPC Options"
+msgstr "ERPC Opcje"
+
+#: includes/erpc-admin.php:47
+#, php-format
+#@ erpc
+msgid "Disable url access to %s by .htaccess"
+msgstr "Zablokuj dostęp do %s poprzez plik .htaccess"
+
+#: includes/erpc-admin.php:54
+#, php-format
+#@ erpc
+msgid "Can't write to %s"
+msgstr "Zablokuj dostęp do adresu %s w pliku .htaccess"
+
+#: includes/erpc-admin.php:67
+#@ erpc
+msgid "Options saved."
+msgstr "Opcje zostały zapisane"
+
+#: includes/erpc-admin.php:94
+#, php-format
+#@ erpc
+msgid "Connection OK | ERP: %s | Server version: %d.%d"
+msgstr "Połączenie OK | ERP: %s | Wersja serwera: %d.%d"
+
+#: includes/erpc-admin.php:124
+#@ erpc
+msgid "Server"
+msgstr "Serwer"
+
+#: includes/erpc-admin.php:134
+#@ erpc
+msgid "Username"
+msgstr "Użytkownik"
+
+#: includes/erpc-admin.php:144
+#@ erpc
+msgid "Password"
+msgstr "Hasło"
+
+#: includes/erpc-admin.php:154
+#@ erpc
+msgid "AuthKey"
+msgstr "Klucz autoryzacji"
+
+#: includes/erpc-admin.php:167
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: includes/erpc-admin.php:175
+#@ erpc
+msgid "Connection Test"
+msgstr "Test połączenia"
+
+#: includes/erpc-invoice-template.php:36
+#@ erpc
+msgid "Invoice not found"
+msgstr "Faktura nie została znaleziona"
+
+#: includes/erpc-ra-helper.php:35
+#@ erpc
+msgid "Incomplete option settings"
+msgstr "Niekompletne ustawienia"
+
+#: includes/erpc-ra-helper.php:41
+#@ erpc
+msgid "Unknown Contractor id"
+msgstr "Nieokreślony identyfikator Kontrahenta"
+
+#: includes/erpc-ra-helper.php:57
+#, php-format
+#@ erpc
+msgid "Incomplete server version. Installed: %d.%d Required: %s"
+msgstr "Niekompatybilna wersja serwera. Zainstalowana: %d.%d Wymagana: %s"
+
+#: includes/erpc-user.php:23
+#@ erpc
+msgid "Contractor ID"
+msgstr "Identyfikator Kontrahenta"
+
+#: includes/erpc-user.php:27
+#@ erpc
+msgid "Please enter ERP Contractor ID."
+msgstr "Wprowadź identyfikator Kontrahenta z systemu ERP"
+

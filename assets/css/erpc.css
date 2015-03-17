@@ -1,0 +1,23 @@
+.erpc_invoice_header {
+  display: flex;	
+}
+
+.erpc_invoice_pdf {
+	background-image: url('../img/pdf.png');
+	width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.erpc_load1 {
+	background-image: url('../img/loader1.gif');
+	width: 32px;
+    height: 32px;
+}
+
+.erpc_load2 {
+	background-image: url('../img/loader2.gif');
+	width: 48px;
+    height: 16px;
+    margin-left: 5px;
+}
